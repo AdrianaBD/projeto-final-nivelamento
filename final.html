@@ -7,33 +7,63 @@
 </head>
 <body>
     <script>
-        var primeiroNumero =  (parseInt('Digite primeiro numero'));
-        var segundoNumero =  (parseInt('Digite segundo numero'));
-        var terceiroNumero =  (parseInt('Digite terceiro numero'));
-        var quartoNumero =  (parseInt('Digite quarto numero'));
-        var quintoNumero = (parseInt)('Digite o quinto numero');
 
-        if (primeiroNumero, segundoNumero, terceiroNumero, quartoNumero % != 0){
+    var num1 = parseInt(prompt('Digite um numero'));
+    var num2 = parseInt(prompt('Digite um numero'));
+    var num3 = parseInt(prompt('Digite um numero'));
+    var num4 = parseInt(prompt('Digite um numero'));
+    var num5= parseInt(prompt('Digite um numero'));
+    
+    if (num1 % 2!=0){
+        document.write('Você digitou o numero: ' + num1 + '<br>');
+        document.write( 'Seu numero é  Impar');
+    }else{
+        document.write('Você digitou o numero: ' + num1 + '<br>');
+        document.write ('Seu numero é par')
+    }if (num2 % 2!=0){
+        document.write('Você digitou o numero: ' + num2 + '<br>')
+        document.write('Seu numero é Impar');
 
-            document.write('Resultado Impar');
-        }else{
-            document.write ('Resultado Par');
+    }else{
+        document.write('Você digitou o numero: ' + num2 + '<br>');
+        document.write('Seu numero é Par');
+        
+    }if (num3 % 2!=0){
+        document.write('Você digitou o numero: ' + num3 + '<br>')
+        document.write('Seu numero é Impar' + '<br>');
+
+    }else{
+        document.write('Você digitou o numero: ' + num3 + '<br>');
+        document.write('Seu numero é Par');
+        
+    }if (num4 % 2!=0){
+        document.write('Você digitou o numero: ' + num4 + '<br>')
+        document.write('Seu numero é Impar');
+
+    }else{
+        document.write('Você digitou o numero: ' + num4 + '<br>');
+        document.write(  'Seu numero é Par');
+    
+    }if (num5 % 2!=0){
+        document.write('Você digitou o numero: ' + num5 + '<br>')
+        document.write('Seu numero é Impar');
+
+    }else{
+        document.write('Você digitou o numero: ' + num5 + '<br>');
+        document.write('Seu numero é Par');
+        
+        function maiorDosCinco(num1, num2, num3, num4,num5){
+        if(num1>num2>num3>num4>num5)
+        alert("O maior numero é': "+ num1 + " e o menor é" +num5)  
         }
-        fuction mostrarNumeroMenor(){
-            if (primeiroNumero < segundoNumero <terceiroNumero<quartoNumero<quintoNumero)
-                document.write (primeiroNumero 'é menor');
-            if (segundoNumero < primeiroNumero, terceiroNumero, quartoNumero, quintoNumero)
-                document.write (segundoNumero 'é menor');
-            if (terceiroNumero < primeiroNumero, segundoNumero, quartoNumero, quintoNumero)
-                document.write (terceiroNumero 'é menor');
-            if (quartoNumero < primeiroNumero, segundoNumero, terceiroNumero, quintoNumero)
-                document.write (quartoNumero 'é menor');
-                
-        }else{
-            document.write (quintoNumero 'é menor');
-        }
-
-
+    }
     </script>
+        
+
+
+        
+    
+        
+
 </body>
 </html>
